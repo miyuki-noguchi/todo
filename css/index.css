@@ -1,0 +1,29 @@
+body {
+  background: #f2eae6;
+}
+img {
+  width: 100%;
+}
+.mv {
+  padding-top: 75%;
+  background: url('../img/mv.jpg') no-repeat center/cover;
+  position: relative;
+}
+.mv-txt {
+  position: absolute;
+  bottom: -150px;
+  right: 5px;
+  font-weight: bold;
+  font-size: 40px;
+  background: rgba(255, 255, 255, 0.5);
+  width: 95%;
+  padding: 20px;
+  color: #333;
+}
+.mv-txt > span {
+  display: block;
+  margin-top: 10px;
+}
+.mv-txt span span {
+  font-size: 70%;
+}
