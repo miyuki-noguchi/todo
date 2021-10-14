@@ -27,3 +27,107 @@ img {
 .mv-txt span span {
   font-size: 70%;
 }
+.content {
+  margin-top: 230px;
+}
+section {
+  position: relative;
+  margin: 30px 0;
+  padding: 50px 0;
+}
+section::before {
+  content: 'カ';
+  font-size: 230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  color: rgba(205, 231, 252, 0.8);
+  font-weight: bold;
+}
+section.section2::before {
+  content: 'ワ';
+  color: #e3f6e8;
+}
+section.section3::before {
+  content: 'ウ';
+  color: #f7d0cd;
+}
+section.section4::before {
+  content: 'ソ';
+  color: #ccc;
+}
+.kawauso {
+  width: 60%;
+}
+.kawauso1,
+.kawauso3 {
+  margin: 0 0 0 auto;
+}
+.kawauso2 {
+  margin: 0 auto 0 0;
+}
+.kawauso3 {
+  width: 30%;
+}
+.kawauso4 {
+  width: 50%;
+}
+.btn1 {
+  position: absolute;
+  top: -10%;
+  left: 40px;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+.btn1::before {
+  content: '';
+  display: inline-block;
+  border: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-right: 10px solid #fff;
+  position: absolute;
+  bottom: -15px;
+  right: 20px;
+}
+.btn2 {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+.btn2::before {
+  content: '';
+  display: inline-block;
+  border: 10px solid transparent;
+  border-top: 10px solid #fff;
+  border-left: 10px solid #fff;
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+}
+.btn3 {
+  top: 4%;
+  left: 130px;
+}
+.btn-foot {
+  top: 10%;
+  right: 10px;
+}
+.footer-img {
+  width: 40%;
+  position: relative;
+  left: 15px;
+}
+
+.footer {
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
+  position: relative;
+}
