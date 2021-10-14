@@ -75,6 +75,9 @@ section.section4::before {
 .kawauso4 {
   width: 50%;
 }
+.btn {
+  line-height: 1.5;
+}
 .btn1 {
   position: absolute;
   top: -10%;
@@ -129,6 +132,38 @@ section.section4::before {
 
 .footer {
   margin-top: 100px;
-  /* margin-bottom: 100px; */
+  margin-bottom: 100px;
   position: relative;
+}
+
+.txt {
+  width: 80%;
+  margin: 50px auto 100px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.txt span {
+  font-weight: bold;
+  color: brown;
+}
+
+.hide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  display: none;
+}
+.coment {
+  width: 80%;
+  height: 50%;
+  background: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
 }
