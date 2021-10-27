@@ -25,7 +25,7 @@ console.log(el);
 $(window).scroll(function () {
   const scroll = $(this).scrollTop();
   console.log(scroll);
-  if (scroll + 700 > el) {
+  if (scroll + 800 > el) {
     target.addClass('active');
   }
 });
