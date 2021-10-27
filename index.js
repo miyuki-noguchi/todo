@@ -1,4 +1,10 @@
 $(function () {
+  // mv
+  setTimeout(function () {
+    $('.mv-txt').fadeIn(1000);
+  }, 2000);
+
+  // modal
   $('.btn').each(function () {
     $(this).click(function () {
       const target = $(this).data('btn');
@@ -11,4 +17,15 @@ $(function () {
       return false;
     });
   });
+});
+
+const target = $('#target-kawauso1');
+const el = target.offset().top;
+console.log(el);
+$(window).scroll(function () {
+  const scroll = $(this).scrollTop();
+  console.log(scroll);
+  if (scroll + 700 > el) {
+    target.addClass('active');
+  }
 });

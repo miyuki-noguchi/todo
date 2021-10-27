@@ -17,16 +17,25 @@ img {
   font-weight: bold;
   font-size: 40px;
   background: rgba(255, 255, 255, 0.8);
-  width: 95%;
+  width: 87%;
   padding: 20px;
   color: #333;
+  display: none;
 }
 .mv-txt > span {
   display: block;
   margin-top: 10px;
 }
-.mv-txt span span {
-  font-size: 70%;
+.mv-txt span span.sm {
+  font-size: 65%;
+}
+.mv-txt span span.kyon {
+  font-size: 85%;
+  color: #39d1f5;
+}
+.mv-txt span span.miyu {
+  font-size: 85%;
+  color: #fba7d5;
 }
 .content {
   margin-top: 230px;
@@ -61,6 +70,16 @@ section.section4::before {
 }
 .kawauso {
   width: 60%;
+}
+.kawauso1 {
+  transform: translateX(180px);
+  transition: 0.3s ease;
+}
+.kawauso1.active {
+  transform: translateX(0);
+}
+.kawauso1.on {
+  transform: translateX(0);
 }
 .kawauso1,
 .kawauso3 {
