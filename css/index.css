@@ -94,9 +94,17 @@ section.section4::before {
 }
 .kawauso3 {
   width: 30%;
+  transition: 1s ease;
+}
+.kawauso3.active {
+  transform: translateX(180px);
 }
 .kawauso4 {
   width: 50%;
+  transition: 2s;
+}
+.footer-img .kawauso4.active {
+  transform: rotate(45deg);
 }
 .btn {
   line-height: 1.5;
@@ -140,7 +148,7 @@ section.section4::before {
   left: 20px;
 }
 .btn3 {
-  top: 4%;
+  top: 0;
   left: 130px;
 }
 .btn-foot {
@@ -151,8 +159,12 @@ section.section4::before {
   width: 40%;
   position: relative;
   left: 15px;
+  transform: translateY(200px);
+  transition: 1s;
 }
-
+.footer-img.active {
+  transform: translateY(0);
+}
 .footer {
   margin-top: 100px;
   margin-bottom: 100px;
