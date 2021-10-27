@@ -103,7 +103,7 @@ section.section4::before {
   width: 50%;
   transition: 2s;
 }
-.footer-img .kawauso4.active {
+.kawauso4.active {
   transform: rotate(45deg);
 }
 .btn {
