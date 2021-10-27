@@ -21,6 +21,8 @@ $(function () {
   const target = $('#target-kawauso1');
   const target3 = $('#target-kawauso3');
   const target5 = $('#footer-img');
+  const target2 = $('#target-kawauso2');
+  const target4 = $('#target-kawauso4');
   setInterval(function () {
     target.addClass('active');
     target3.addClass('active');
@@ -29,8 +31,6 @@ $(function () {
     target4.removeClass('active');
   }, 5000);
 
-  const target2 = $('#target-kawauso2');
-  const target4 = $('#target-kawauso4');
   setInterval(function () {
     target2.addClass('active');
     target4.addClass('active');
