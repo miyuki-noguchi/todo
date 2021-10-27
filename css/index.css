@@ -87,6 +87,10 @@ section.section4::before {
 }
 .kawauso2 {
   margin: 0 auto 0 0;
+  transition: 1s ease;
+}
+.kawauso2.active {
+  transform: rotate(360deg);
 }
 .kawauso3 {
   width: 30%;
