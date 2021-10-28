@@ -15,7 +15,7 @@ img {
   bottom: -150px;
   right: 5px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 33px;
   background: rgba(255, 255, 255, 0.8);
   width: 87%;
   padding: 20px;
@@ -111,7 +111,7 @@ section.section4::before {
 }
 .btn1 {
   position: absolute;
-  top: -10%;
+  top: -17%;
   left: 40px;
   background: #fff;
   padding: 20px;
@@ -130,8 +130,8 @@ section.section4::before {
 }
 .btn2 {
   position: absolute;
-  top: 30px;
-  right: 40px;
+  top: -10px;
+  right: 30px;
   background: #fff;
   padding: 20px;
   text-align: center;
@@ -152,8 +152,8 @@ section.section4::before {
   left: 130px;
 }
 .btn-foot {
-  top: 10%;
-  right: 10px;
+  top: -28%;
+  right: 0px;
 }
 .footer-img {
   width: 40%;
